@@ -1,4 +1,4 @@
-### Buildkite Utilities Plugin
+# Buildkite Utilities Plugin
 
 This plugin exposes various utility scripts as reusable scripts to other commands of the same pipeline step where the plugin is included.
 
