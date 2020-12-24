@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-npm ci \
+NODE_ENV=production npm ci \
 	--prefer-offline \
 	--ignore-scripts \
 	--no-audit \
