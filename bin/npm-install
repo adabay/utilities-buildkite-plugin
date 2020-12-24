@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -euo pipefail
+
+npm ci \
+	--prefer-offline \
+	--ignore-scripts \
+	--no-audit \
+	--no-bin-links \
+	--no-optional
