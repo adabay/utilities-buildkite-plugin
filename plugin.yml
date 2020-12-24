@@ -1,0 +1,6 @@
+name: Utilities
+description: Adds common utility scripts to PATH for other pipeline steps to use
+author: https://adabay.rocks
+configuration:
+  properties: {}
+  additionalProperties: false
