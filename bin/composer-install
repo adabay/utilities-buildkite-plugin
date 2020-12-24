@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -euo pipefail
+
+composer install \
+	--verbose \
+	--prefer-dist \
+	--no-interaction \
+	--no-dev \
+	--no-scripts \
+	--no-progress \
+	--no-suggest \
+	--ignore-platform-reqs \
+	--optimize-autoloader
