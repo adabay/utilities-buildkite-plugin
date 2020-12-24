@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -euo pipefail
+
+if [[ -d $1 ]]; then
+    rm -rf "$1/*"
+else
+    echo "Passed argument is not a directory"
+fi
